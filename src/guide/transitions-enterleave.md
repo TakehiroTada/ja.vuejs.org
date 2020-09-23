@@ -1,13 +1,13 @@
-# Enter & Leave Transitions
+# Enter & Leave トランザクション
 
-Vue provides a variety of ways to apply transition effects when items are inserted, updated, or removed from the DOM. This includes tools to:
+Vue は、DOM からアイテムが追加、更新、削除されたときにトランジション効果を適用するための方法を複数提供しています:
 
-- automatically apply classes for CSS transitions and animations
-- integrate 3rd-party CSS animation libraries, such as [Animate.css](https://animate.style/)
-- use JavaScript to directly manipulate the DOM during transition hooks
-- integrate 3rd-party JavaScript animation libraries
+- 自動的に CSS トランジションやアニメーションのためのクラスを適用します。
+- [Animate.css](https://animate.style/) のようなサードパーティの CSS アニメーションライブラリと連携します。 
+- トランジションフックが実行されている間、JavaScript を使って直接 DOM 操作を行います。
+- サードパーティの JavaScript アニメーションライブラリと連携します。
 
-On this page, we'll only cover entering, leaving, and list transitions, but you can see the next section for [managing state transitions](transitions-state.html).
+このページでは、entering/leaving によるリストのトランジションについて扱いますが、次の章では、[状態のトランジション](transitions-state.html) について扱います。
 
 ## Transitioning Single Elements/Components
 
